@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+  let x = parseInt(prompt("Nhập điểm kiểm tra" + ''));
+  let y = parseInt(prompt("Nhập điểm thi giữa kì" + ''));
+  let z = parseInt(prompt("Nhập điểm thi cuối kì" + ''));
+  tbc = (x+y+z)/3;
+  if (tbc <= 5){
+    document.write("Học lực yếu");
+  }else if(5 < tbc && tbc <= 7){
+    document.write("Học lực khá");
+  }else if(8 <= tbc && tbc<= 10){
+    document.write("Học lực tốt");
+  }else{
+    document.write("Không hợp lệ");
+  }
+
+
+
+
+
+</script>
+
+</body>
+</html>

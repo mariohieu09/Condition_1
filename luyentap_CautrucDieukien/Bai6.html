@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+let doanh_so = parseInt(prompt("Nhập doanh số bán hàng:" + ''));
+let hoa_hong;
+if(doanh_so <= 100000000){
+    hoa_hong = doanh_so*5/100;
+    alert("Hoa hong: " + hoa_hong);
+}else if(doanh_so <= 300000000){
+    hoa_hong = doanh_so*10/100;
+    alert("Hoa hong: " + hoa_hong);
+}else if(doanh_so > 300000000){
+    hoa_hong = doanh_so*20/100;
+    alert("Hoa hong: "+ hoa_hong);
+}
+</script>
+
+</body>
+</html>
